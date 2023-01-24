@@ -8,3 +8,6 @@ cscript.exe %systemroot%\scripts\watcher.vbs -f %systemroot%\scripts\watcher.cfg
 
 #### Настройка
 В файле watcher.cfg с каждой новой строки (в столбик) пишется "<процесс.exe> <максимальное число процессов>"  
+
+#### Логирование
+Лог записывается в файл %systemroot%\scripts\watcher.log  
