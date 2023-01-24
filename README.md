@@ -11,3 +11,7 @@ cscript.exe %systemroot%\scripts\watcher.vbs -f %systemroot%\scripts\watcher.cfg
 
 #### Логирование
 Лог записывается в файл %systemroot%\scripts\watcher.log  
+
+
+#### Доработать
+Необходимо добавить список исключений (файл-список) с имена пользователей  
