@@ -26,7 +26,7 @@ cscript.exe %systemroot%\scripts\watcher.vbs -f %systemroot%\scripts\watcher.cfg
 ```
 
 #### Доработать
-Необходимо добавить список исключений (файл-список) с имена пользователей  
+Необходимо добавить список исключений (файл-список) с именами пользователей  
 ```
 if strNameOfUser = "Director" then
 CountUserProcess = 1
