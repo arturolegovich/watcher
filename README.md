@@ -11,7 +11,18 @@ cscript.exe %systemroot%\scripts\watcher.vbs -f %systemroot%\scripts\watcher.cfg
 
 #### Логирование
 Лог записывается в файл %systemroot%\scripts\watcher.log  
-
+```
+24.01.2023 14:20:41 - -- ProcessName-notepad.exe, ProcessId-4808, strOwnerProcess-artur, strDomain-pc14
+24.01.2023 14:20:41 - strNameOfUser-artur
+24.01.2023 14:20:46 - -- ProcessName-notepad.exe, ProcessId-6132, strOwnerProcess-artur, strDomain-pc14
+24.01.2023 14:20:46 - strNameOfUser-artur
+24.01.2023 14:20:46 - strNameOfUser-artur
+24.01.2023 14:20:50 - -- ProcessName-notepad.exe, ProcessId-5388, strOwnerProcess-artur, strDomain-pc14
+24.01.2023 14:20:50 - strNameOfUser-artur
+24.01.2023 14:20:50 - strNameOfUser-artur
+24.01.2023 14:20:50 - strNameOfUser-artur
+24.01.2023 14:20:50 - Count of process notepad.exe is 3... Terminate last process.
+```
 
 #### Доработать
 Необходимо добавить список исключений (файл-список) с имена пользователей  
